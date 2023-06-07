@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <img id="banner" width="100%" src="banner.png" alt="">
+    <div id="inst">
+
+  <h4>Rules and Instructions:</h4>
+ <ul>
+   <li>Guess the number between 1-100.</li>
+   <li>Every time you guess the wrong number one score got deducted from hundred.</li>
+   <li>To stop the game Enter number above hundred.</li>
+ </ul>
+ </div>
+ <div id="btnBox">
+   <button onclick="start()">Play!</button>
+ </div>
+ <div id="winnerbox">
+   <img width="100%" id="winner" src="" alt="">
+   <!--<h1 id="win"></h1>-->
+   <h1 id="scoreLabel"></h1>
+   <h1 id="score"></h1>
+   <button onclick="replay()" id="again"></button>
+ </div>
+  <script src="main.js"></script>
+</body>
+</html>

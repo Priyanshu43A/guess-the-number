@@ -1,0 +1,63 @@
+body {
+    font-size: 15pt;
+    background: url("depositphotos_25498877-stock-photo-background-of-numbers.jpg") repeat-y ;
+      max-width: 100vw;
+}
+h1{
+  display: inline;
+  margin: 0;
+  padding: 10px;
+}
+#winnerbox,#btnBox{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 50px 0;
+}
+button{
+  width: 40vw;
+  height: 8vh;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 25px;
+  border: 4px solid black;
+  background: linear-gradient(60deg,#D3690ED9,#D30E0ED9);
+ justify-content: center;
+ align-content: center;
+}
+#again{
+  display: none;
+  margin: 40px 0 0 0;
+}
+#inst{
+  background-color: lightcyan;
+  padding: 10px;
+  margin: 15px 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+img{
+  border-radius: 15px;
+  
+}
+#scoreLabel{
+  background: #380EE4;
+  color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#score{
+  background: white;
+  color: black;
+  padding: 10px;
+  height: 20vh;
+  font-size: 100px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 5px blue;
+}
+#winnerLabel,#winner,#score{
+  display: none;
+}
